@@ -7,7 +7,8 @@ For this project Archivits proposed different architectures in order to choose t
 - Main Experience -> custom ERC-721 that only genesis members could buy.
 - Club options ->ERC-721 customised which could only be acquired by genesis members, but could be sold on secondary markets (Opensea)
 - Art&Collectibles - >ERC-721 custom token that could be purchased by those who had redeemed their NFT from Main Experience and club options
-- OE token -> ERC-20 custom token that could be purchased on the marketplace or by yielding the Genesis. With this token you could buy Club Options or Art&Collectibles.
+- OE token -> ERC-20 custom token that could be purchased on the marketplace or by yielding the Genesis. With this token you could buy Club Options or
+- Art&Collectibles. The price of this token is linked to the price of the dollar through an oracle.
 - Treasury -> Smart Contract where Genesis members could make proposals about the future of the community. In this SC funds could be deposited to make investments.
 
 ## 1st Code Structure
