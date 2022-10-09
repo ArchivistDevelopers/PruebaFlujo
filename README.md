@@ -10,6 +10,7 @@
 - Treasury -> Smart Contract where Genesis members could make proposals about the future of the community. In this SC funds could be deposited to make investments.
 
 ## Code Structure
+For this project, Archivist proposed different architectures in order to find the most suitable solution:
 ### First Proposal
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v1.png?raw=true)
