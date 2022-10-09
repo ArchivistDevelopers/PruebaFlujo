@@ -11,7 +11,7 @@
 ## Code Structure
 For this project, Archivist proposed different architectures in order to find the most suitable solution:
 ### First Proposal
-In this first proposal, 6 contracts linked by 2 interfaces would be deployed:
+In this first proposal, 6 contracts linked by 2 interfaces will be deployed:
 - **IOEToken**: OE token interface which has built-in functions to update the amount of OE tokens held by a user when the user acquires or uses the tokens.
 - **IGenesis** : interface that will allow only genesis members to access the functionalities of the rest of the components. Furthermore, it checks the level of the Genesis to give access to higher level functionalities.
 
@@ -26,7 +26,7 @@ Opensea compatible| More complexity in front-end
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v1.png?raw=true)
 ### Second Proposal
-3 contracts are deployed in this architecture. The Main Experience contract inherits the functionalities of the Club options contract (both share many functionalities) and in turn, the Genesis inherits the functionalities of the Main Experience and Art&Collectibles contracts.
+3 contracts and one interface are deployed in this architecture. The Main Experience contract inherits the functionalities of the Club options contract (both share many functionalities) and in turn, the Genesis inherits the functionalities of the Main Experience and Art&Collectibles contracts. The interface will include de functionalities to check the genesis members and to update the balance of the token
 
 **Pros** | **Cons**
 --- | --- 
@@ -37,6 +37,16 @@ Low cost on deploy (3 deploys) |
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v2.png?raw=true)
 ### Third Proposal
+In this last proposal, 4 contracts will be deployed and the genesis contract will inherit the functionalities of the OE token and the Main Experience and Club Options contracts will be grouped into one contract. There would only be one interface to check the genesis membership.
+
+**Pros** | **Cons**
+--- | --- 
+More secure than V2|  Less secure than V1
+More blockchain eficient than V1| Less blockchain eficient than V2
+Less front-end complexity than V1| More front-end complexity than V2
+Less cost on deploy than V1 | More cost on deploy than V2
+Opensea compatible|
+
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v3.png?raw=true)
 
 
