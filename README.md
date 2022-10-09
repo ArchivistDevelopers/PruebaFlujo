@@ -20,13 +20,9 @@ In addition, Archivist made a proposal by studying the business case where the E
 **Pros** | **Cons**
 --- | --- 
 Increased security through distributed balances | Less efficent (+cost, +time)
---- | --- 
 Increased security through segmentation of contracts and interfaces| More expensive the communication between Scs
---- | --- 
 Opensea compatible| More complexity in front-end
---- | --- 
 | High cost on deploy ( 6 deploys)
---- | --- 
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v1.png?raw=true)
 ### Second Proposal
