@@ -19,14 +19,21 @@ In addition, Archivist made a proposal by studying the business case where the E
 
 **Pros** | **Cons**
 --- | --- 
-Increased security through distributed balances | Less efficent (+cost, +time)
+Increased security through distributed balances | Less blockchain efficent (+cost, +time)
 Increased security through segmentation of contracts and interfaces| More expensive the communication between Scs
 Opensea compatible| More complexity in front-end
   --- | High cost on deploy ( 6 deploys)
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v1.png?raw=true)
 ### Second Proposal
+3 contracts are deployed in this architecture. The Main Experience contract inherits the functionalities of the Club options contract (both share many functionalities) and in turn, the Genesis inherits the functionalities of the Main Experience and Art&Collectibles contracts.
 
+**Pros** | **Cons**
+--- | --- 
+More blockchain efficent (-cost, -time) | No compatible with Opensea
+Cheap in the communication between SCs| Less secure due to more centralize balances
+Less complexity in front-end| 
+Low cost on deploy (3 deploys) | 
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v2.png?raw=true)
 ### Third Proposal
