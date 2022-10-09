@@ -1,7 +1,5 @@
 # Entertainment-smart-contracts
 
-For this project Archivits proposed different architectures in order to choose the one that best suited the client's needs:
-
 ## Components
 - Genesis -> custom ERC-721 that could only be purchased by members of a whitelist. This ERC-721 could evolve changing its appearance depending on the participation in the community.
 - Main Experience -> custom ERC-721 that only genesis members could buy.
