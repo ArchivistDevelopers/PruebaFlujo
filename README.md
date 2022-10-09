@@ -9,7 +9,8 @@
 - Art&Collectibles. The price of this token is linked to the price of the dollar through an oracle.
 - Treasury -> Smart Contract where Genesis members could make proposals about the future of the community. In this SC funds could be deposited to make investments.
 
-## 1st Code Structure
+## Code Structure
+### First Proposal
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v1.png?raw=true)
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v2.png?raw=true)
