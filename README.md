@@ -17,9 +17,9 @@ In this first proposal, 6 contracts linked by 2 interfaces would be deployed:
 
 In addition, Archivist made a proposal by studying the business case where the EO tokens purchased by participants could also be used as treasury funds.This is represented by the yellow dotted line linking the OE token contract to the treasury.This proposal will be repeated in the other suggested architectures.
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+#Pros | #Cons
+--- | --- 
+Seconds | 301 
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v1.png?raw=true)
 ### Second Proposal
