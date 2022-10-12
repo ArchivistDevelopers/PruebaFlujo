@@ -13,7 +13,7 @@ For this project, Archivist proposed different architectures in order to find th
 ### First Proposal
 In this first proposal, 6 contracts linked by 2 interfaces are deployed:
 - **IOEToken**: OE token interface which has built-in functions to update the amount of OE tokens held by a user when the user acquires or uses the tokens.
-- **IGenesis** : interface that allows only genesis members to access the functionalities of the rest of the components. Furthermore, it checks the level of Genesis token to give access to higher level functionalities.
+- **IGenesis** : interface that allows only genesis members to access the functionalities of the rest of the components. Furthermore, it checks the level of Genesis token to give access to higher level functionalities. It initializes the OE token state for Genesis minters
 
 In addition, Archivist made a proposal by studying the business case where the OE tokens purchased by participants could also be used as treasury funds.This is represented by the yellow dotted line linking the OE token contract to the treasury. This proposal will be repeated in the other suggested architectures, as a method for incentivizing the token utility and demand.
 
@@ -26,18 +26,18 @@ Opensea compatible| Higher front-end complexity
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v1.png?raw=true)
 ### Second Proposal
-3 contracts and one interface are deployed in this architecture. The Main Experience contract inherits the functionalities of the Club options contract (both share many functionalities) and in turn, the Genesis inherits the functionalities of the Main Experience and Art&Collectibles contracts. The interface will include de functionalities to check the genesis members and to update the balance of the token
+3 contracts and one interface are deployed in this architecture. The Main Experience contract inherits the functionalities of the Club Options contract (both share many functionalities) and in turn, the Genesis inherits the functionalities of the Main Experience and Art&Collectibles contracts. The interface includes functionalities to check the genesis members and to update the balance of the token.
 
 **Pros** | **Cons**
 --- | --- 
-More blockchain efficent (-cost, -time) | No compatible with Opensea
-Cheap in the communication between SCs| Less secure due to more centralize balances
+More blockchain efficent (-cost, -time) | Not Opensea compatible due to collect. format
+Cheaper communication between SCs| Less secure due to more centralized balances
 Less complexity in front-end| 
-Low cost on deploy (3 deploys) | 
+Lower cost on deployment (3 deploys) | 
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v2.png?raw=true)
 ### Third Proposal
-In this last proposal, 4 contracts will be deployed and the genesis contract will inherit the functionalities of the OE token and the Main Experience and Club Options contracts will be grouped into one contract. There would only be one interface to check the genesis membership.
+In this last proposal, 4 contracts are deployed and the Genesis contract inherits the functionalities of the OE token, the Main Experience and Club Options contracts will be grouped into one contract. There is only one interface to check the genesis membership.
 
 **Pros** | **Cons**
 --- | --- 
