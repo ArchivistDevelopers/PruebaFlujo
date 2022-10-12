@@ -37,7 +37,7 @@ Lower cost on deployment (3 deploys) |
 
 ![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v2.png?raw=true)
 ### Third Proposal
-In this last proposal, 4 contracts are deployed and the Genesis contract inherits the functionalities of the OE token, the Main Experience and Club Options contracts will be grouped into one contract. There is only one interface to check the genesis membership.
+In this last proposal, 4 contracts are deployed and the Genesis contract inherits the functionalities of the OE token, the Main Experience and Club Options contracts grouped into one unique contract, due to design similarities. There is only one interface to check the genesis membership and handle the SC interactions.
 
 **Pros** | **Cons**
 --- | --- 
