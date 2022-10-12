@@ -4,7 +4,7 @@
 - **Genesis** -> custom ERC-721 that can only be purchased by members of a whitelist. This ERC-721 is the key to accessing the ecosystem's applications and can evolve to higher levels, changing its appearance (metadata) and benefits (purchaseable experiences, token yielding rate, exclusive offers, etc.) depending on the participation in the community.
 - **Main Experience** -> custom ERC-721 that only genesis members can buy. It presents tiers depending on genesis level. These are personalized exclusive experiences.
 - **Club options** -> custom ERC-721 which can only be acquired by genesis members, but can be traded or exchanged on secondary markets (Opensea). These are seasoned organized experiences.
-- **Art&Collectibles** - > custom ERC-721 token that can be purchased by those who had redeemed their NFT from Main Experience and Club Options
+- **Art&Collectibles** -> custom ERC-721 token that can be purchased by those who had redeemed their NFT from Main Experience and Club Options
 - **OE token** -> Custom fungible token that could be purchased on the marketplace with ETH or USDC or through yielding, by holding a Genesis token. This token enables Club Options and Art&Collectibles purchases to the community. The price of the token is constant regarding USDC and the ETH rate is adjusted with an oracle.
 - **Treasury** -> Smart Contract where Genesis members can make proposals about the future of the community. In this SC funds can be deposited to make investments, share experiences, vote for future events or develop the ecosystem.
 
