@@ -24,7 +24,7 @@ Increased security through segmentation of contracts and interfaces| More expens
 Opensea compatible| Higher front-end complexity
   &nbsp; | Higher cost on deployment (6 deploys)
 
-![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v1.png?raw=true)
+![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/architecture/Dependencies_v1.png?raw=true)
 ### Second Proposal
 3 contracts and one interface are deployed in this architecture. The Main Experience contract inherits the functionalities of the Club Options contract (both share many functionalities) and in turn, the Genesis inherits the functionalities of the Main Experience and Art&Collectibles contracts. The interface includes functionalities to check the genesis members and to update the balance of the token.
 
