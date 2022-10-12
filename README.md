@@ -35,7 +35,7 @@ Cheaper communication between SCs| Less secure due to more centralized balances
 Less complexity in front-end| 
 Lower cost on deployment (3 deploys) | 
 
-![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v2.png?raw=true)
+![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/architecture/Dependencies_v2.png?raw=true)
 ### Third Proposal
 In this last proposal, 4 contracts are deployed and the Genesis contract inherits the functionalities of the OE token, the Main Experience and Club Options contracts grouped into one unique contract, due to design similarities. There is only one interface to check the genesis membership and handle the SC interactions.
 
@@ -47,7 +47,7 @@ Less front-end complexity than V1| More front-end complexity than V2
 Less cost on deploy than V1 | More cost on deploy than V2
 Opensea compatible|
 
-![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/Dependencies_v3.png?raw=true)
+![alt text](https://github.com/ArchivistDevelopers/Entertainment-smart-contracts/blob/main/architecture/Dependencies_v3.png?raw=true)
 
 
 
