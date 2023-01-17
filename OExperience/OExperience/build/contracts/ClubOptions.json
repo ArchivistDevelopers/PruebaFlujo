@@ -1,0 +1,75 @@
+{
+  "contractName": "ClubOptions",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ClubOptions.sol\":\"ClubOptions\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ClubOptions.sol\":{\"keccak256\":\"0x43f92e3137db3cf4d4a2d2bbe4b2e90a1ac5efc948af534264a3ad9fcf60d08e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e0cedac4772fdaed8c987e2d012572ad04185d930ada6940289bd50eb34a34ee\",\"dweb:/ipfs/QmeGBY62CQ9yW8kJh89JVBgHcBuP1SZHANsF7nS68XYT5R\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203faa1bd03d324778d186647074baba7079af84e632c06bebdf0258f931f480c664736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212203faa1bd03d324778d186647074baba7079af84e632c06bebdf0258f931f480c664736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:29:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:29:2:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract ClubOptions {\n    \n}",
+  "sourcePath": "C:\\Users\\coque\\Documents\\GitHubPrueba\\OExperience\\OExperience\\contracts\\ClubOptions.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ClubOptions.sol",
+    "exportedSymbols": {
+      "ClubOptions": [
+        51
+      ]
+    },
+    "id": 52,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 50,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ClubOptions",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 51,
+        "linearizedBaseContracts": [
+          51
+        ],
+        "name": "ClubOptions",
+        "nameLocation": "66:11:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 52,
+        "src": "57:29:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:54:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-01-17T13:04:49.083Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

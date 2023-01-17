@@ -1,0 +1,75 @@
+{
+  "contractName": "Services",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Treasury.sol\":\"Services\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Treasury.sol\":{\"keccak256\":\"0xdd6d73c753db5b6c07742ab30d75d00da759166e2ab0a02de8710a46d43034b4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4a70a62f1bb18bfb4f5d54fd6ac6122bafd6e2dc5bb13aad2f36298040fde171\",\"dweb:/ipfs/QmaWWrN5po1nujhFDPdUWf8vpwTEWi5g6PeLoXPuN16qe6\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220fea1cfec9c45060cfab92e847be798e0f111262bf21cd79fd61058ff970d9a0a64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220fea1cfec9c45060cfab92e847be798e0f111262bf21cd79fd61058ff970d9a0a64736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:26:8:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:26:8:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract Services {\n    \n}",
+  "sourcePath": "C:\\Users\\coque\\Documents\\GitHubPrueba\\OExperience\\OExperience\\contracts\\Treasury.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Treasury.sol",
+    "exportedSymbols": {
+      "Services": [
+        1774
+      ]
+    },
+    "id": 1775,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1773,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:8"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Services",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1774,
+        "linearizedBaseContracts": [
+          1774
+        ],
+        "name": "Services",
+        "nameLocation": "66:8:8",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1775,
+        "src": "57:26:8",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:51:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-01-17T13:04:49.121Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

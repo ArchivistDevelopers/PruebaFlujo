@@ -1,0 +1,75 @@
+{
+  "contractName": "ArtCollectibles",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ArtCollectibles.sol\":\"ArtCollectibles\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ArtCollectibles.sol\":{\"keccak256\":\"0xa42f428eac801cfb186c8c3d7e483bc73314563762720fc0054dbeb729f8e292\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d643d322777e69e6ba52ca7cfdeab8e4888e1322cb0aa19d411ff243e48a75f9\",\"dweb:/ipfs/QmUh1oFkkLYB2CXp1LWF5GBgsnVNGbDxtJbhHLDnrixhj1\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220c4767ab9cf179cbfa67bd4ca9d7f494e307b55d4cbd2ae8727c5692dfdc9c9d464736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220c4767ab9cf179cbfa67bd4ca9d7f494e307b55d4cbd2ae8727c5692dfdc9c9d464736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:33:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:33:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.1;\n\ncontract ArtCollectibles {\n    \n}",
+  "sourcePath": "C:\\Users\\coque\\Documents\\GitHubPrueba\\OExperience\\OExperience\\contracts\\ArtCollectibles.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ArtCollectibles.sol",
+    "exportedSymbols": {
+      "ArtCollectibles": [
+        48
+      ]
+    },
+    "id": 49,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 47,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ArtCollectibles",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 48,
+        "linearizedBaseContracts": [
+          48
+        ],
+        "name": "ArtCollectibles",
+        "nameLocation": "66:15:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 49,
+        "src": "57:33:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:58:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-01-17T13:04:49.082Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

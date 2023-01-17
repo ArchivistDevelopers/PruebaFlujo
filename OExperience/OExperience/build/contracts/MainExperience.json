@@ -1,0 +1,75 @@
+{
+  "contractName": "MainExperience",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MainExp.sol\":\"MainExperience\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/MainExp.sol\":{\"keccak256\":\"0x854e9e234ed32a22e49b1703514c8b331ccad63c29fd12973ebee08c54e8222c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://56d6d9bdd3607ca2adfcad55e3754972f5dbbc55c6a1ce01e4c8f774cbcd8e80\",\"dweb:/ipfs/QmWjsAPm7tmZs3QZA2XSvhhy9ks7jRbewKTqz8U5rggW2i\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212203e4c0b5dcd8590f0b5e02813af16a69f5c914ced690581d3cf6e0489904442f764736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212203e4c0b5dcd8590f0b5e02813af16a69f5c914ced690581d3cf6e0489904442f764736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:32:4:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:32:4:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract MainExperience {\n    \n}",
+  "sourcePath": "C:\\Users\\coque\\Documents\\GitHubPrueba\\OExperience\\OExperience\\contracts\\MainExp.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MainExp.sol",
+    "exportedSymbols": {
+      "MainExperience": [
+        871
+      ]
+    },
+    "id": 872,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 870,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MainExperience",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 871,
+        "linearizedBaseContracts": [
+          871
+        ],
+        "name": "MainExperience",
+        "nameLocation": "66:14:4",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 872,
+        "src": "57:32:4",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:57:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-01-17T13:04:49.104Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
